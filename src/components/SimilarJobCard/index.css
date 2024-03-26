@@ -1,0 +1,25 @@
+.similar-list-item {
+  display: flex;
+  flex-wrap: wrap;
+  width: 45%;
+  background-color: #272727;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.similar-logo-title-rating-container {
+  display: flex;
+  align-items: center;
+}
+.similar-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+.similar-description {
+  font-family: roboto;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 2;
+}

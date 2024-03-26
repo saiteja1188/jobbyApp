@@ -1,0 +1,47 @@
+.filter-search-container {
+  display: flex;
+  width: 25%;
+  max-width: 280px;
+  min-width: 260px;
+  border: 1px solid #7e858e;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .filter-search-container {
+    display: none;
+  }
+}
+.filter-search-button {
+  background-color: #272727;
+  padding: 0px 15px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.salary-heading {
+  font-family: roboto;
+  color: #ffffff;
+  font-size: 18px;
+}
+/* Type of Employment */
+.employ-type-container {
+  display: flex;
+  flex-direction: column;
+}
+.employ-heading {
+  font-family: roboto;
+  font-size: 18px;
+  color: #ffffff;
+}
+.employ-type-list-container {
+  padding-left: 0px;
+}
+.employ-type-list {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+.label {
+  color: #ffffff;
+  margin-left: 8px;
+}

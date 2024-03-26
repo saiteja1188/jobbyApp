@@ -1,0 +1,14 @@
+.skills-list-items {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  margin-bottom: 50px;
+}
+.skills-img {
+  margin-right: 10px;
+}
+.skills-name {
+  font-family: roboto;
+  font-size: 24px;
+  color: #ffffff;
+}
